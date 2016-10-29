@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Create Event Test" parallel="false" thread-count="1">
+	<parameter name="USED_ENVIRONMENT" value="TEST"></parameter>
+	<parameter name="USED_SERVER" value="LOCAL"></parameter>
+
+	<test verbose="2" name="Cretae and publish Event FIREFOX"
+		annotations="JDK">
+		<parameter name="USED_BROWSER" value="FIREFOX"></parameter>
+		<parameter name="eventRefferanceName" value="eventRefferanceName"></parameter>
+		<parameter name="eventDescription" value="eventDescription"></parameter>
+		<parameter name="eventVisiblename" value="eventVisiblename"></parameter>
+		<parameter name="timeZone" value="(GMT-05:00) Eastern Time"></parameter>
+		<parameter name="eventLocation" value="eventLocation"></parameter>
+		<parameter name="eventAddress" value="350 5th Ave"></parameter>
+		<parameter name="eventCity" value="New York"></parameter>
+		<parameter name="eventState" value="New York"></parameter>
+		<parameter name="eventZip" value="10118"></parameter>
+		<parameter name="ticketName" value="ticketName"></parameter>
+		<parameter name="ticketDescription" value="ticketDescription"></parameter>
+		<parameter name="price" value="20.00"></parameter>
+		<parameter name="deductibleAmount" value="2"></parameter>
+		<parameter name="totalAvailible" value="30"></parameter>
+
+
+		<groups>
+			<run>
+				<include name="createAndPublishEvent" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.IgniteEvents.automation.CreateEventTest" />
+		</classes>
+
+
+	<!--	<methods>
+			<include name="eventCheckout" />
+		</methods>  -->
+	</test>
+
+</suite>
