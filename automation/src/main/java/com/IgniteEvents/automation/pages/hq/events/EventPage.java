@@ -94,5 +94,6 @@ public class EventPage extends ActivitiesPage {
 		verifier.verifyElementIsDisplayed(thankYouMessage, eventPublicName);
 
 	}
+	//test commit
 
 }
