@@ -76,7 +76,7 @@ public class EventPage extends ActivitiesPage {
 		verifier.verifyEquals(numberOfTicketsTable.getCellValue(1, 4).replace("$", ""), "40.00", "Amount is incorect");
 		return this;
 	}
-//tets1
+//testcommit4
 	public DonationWidget registerInTheEvevnt() {
 		registerButton.click();
 		switchToFrame("//iframe[contains(@id, 'ticketFrame')]");
