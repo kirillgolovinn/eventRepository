@@ -78,6 +78,7 @@ public class EventPage extends ActivitiesPage {
 	}
    //testcommit4
   //commit to master
+// made a commit to the testing Branch  made a commit to the testing Branch  made a commit to the testing Branch  made a commit to the testing Branch
 	public DonationWidget registerInTheEvevnt() {
 		registerButton.click();
 		switchToFrame("//iframe[contains(@id, 'ticketFrame')]");

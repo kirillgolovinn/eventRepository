@@ -45,7 +45,6 @@ public class DonationWidget extends Browser {
 		cvv.type("123");
 		expirationMonth.selectByLabel("11");
 		expirationYear.selectByLabel("2017");
-		new TextBoxImpl(getxpath(donAmunt), "Donation amount").click();
 		firtName.type(sup.getFirstName());
 		lastName.type(sup.getLastName());
 		email.type(sup.getEmail());
@@ -60,5 +59,7 @@ public class DonationWidget extends Browser {
 		purchaseButton.click();
 		return new EventPage();
 	}
+	
+	//merge conflict
 
 }
