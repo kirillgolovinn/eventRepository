@@ -36,6 +36,7 @@ public class DonationWidget extends Browser {
 		return xpath;
 	}
 
+	//hot fix test branch
 	public DonationWidget fillDonationForm(Supporter sup) {
 		String[] donAmounts = new String[] { "5", "10", "15", "20", "25" };
 		String donAmunt = donAmounts[new Random().nextInt(donAmounts.length)];
