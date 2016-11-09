@@ -1,5 +1,5 @@
 #AUTOMATICALLY GENERATED
-#Mon Oct 17 14:44:02 EEST 2016
+#Wed Nov 02 17:55:19 EET 2016
 amountOfSupporters=1
 current.Password=11111111
 assets.username=neworg1.03eed056@mailosaur.in
@@ -38,16 +38,16 @@ donationWidgetLink=https\://autotestv2org20150305140225.test.igniteaction.net/au
 petitionWidgetLink=https\://automatedtesting1.dev.igniteaction.net/petitionname_ov83u
 subscribedSupporter=emailforsub20150210125100.4441b2bf@mailosaur.in
 amountOfPublishedEmails=5
-subscribeWidgetLink=https\://automatedtesting1.test.igniteaction.net/subscribewidgetname_lkxlb
 Environment=TEST
+subscribeWidgetLink=https\://automatedtesting1.test.igniteaction.net/subscribewidgetname_lkxlb
 ImportName=Import_20150618122626
 percentageOfTestGroup=100
 unsubscribedSupporter=20150305143500.4441b2bf@mailosaur.in
-CM.Password=\!QAZ2wsx
 current.Login=automation1_admin1.612fb360@mailosaur.in
+CM.Password=\!QAZ2wsx
 Admin.emailBase=automation1_admin1
-Admin.lastName=AutoTesterov
 Admin.firstName=AutoTester
-assets.password=qwerty
-subscribeWidget=https\://automatedtesting1.test.igniteaction.net/eventrefferancenamerqdkb
+Admin.lastName=AutoTesterov
 CM.firstName=CMFirstNameAuto
+subscribeWidget=https\://automatedtesting1.test.igniteaction.net/eventrefferancenamerqdkb
+assets.password=qwerty

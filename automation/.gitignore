@@ -1,1 +1,10 @@
 /target/
+/test-output/
+*.log
+*.exe
+*.zip
+*.html
+*.png
+*.gif
+*.js
+*.css
