@@ -36,7 +36,7 @@ public class CommonUtils {
 
 	// Check, if one of checks is fail, then fail test
 	//commit to testing branch
-	//
+	//stash
 	public static void checkAndFail(String TestName) {
 		if (CommonUtils.getParam("testResult", false).equals("fail")) {
 			throw new AssertionError(TestName + " test is FAIL. Please see log for details");
