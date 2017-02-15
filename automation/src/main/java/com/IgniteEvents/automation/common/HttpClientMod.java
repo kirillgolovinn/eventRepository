@@ -109,6 +109,7 @@ public class HttpClientMod {
 			supporter.setEmail(res.path("payload.supporters[" + i + "].contacts[0].value"));
 			supporter.setFirstName(res.path("payload.supporters[" + i + "].firstName"));
 			data.put(i, supporter);
+			
 			data.forEach((k, v) -> System.out.println("Key : " + k  + " " + "Email" + " ------------- "
 					+ v.getEmail() + "   " + "FIrstName" + "---- " + v.getFirstName()));
 			
