@@ -34,9 +34,7 @@ public class CommonUtils {
 	static String propFileName = "src/test/resources/properties.prop";
 	private static final Logger logger = SeleneseTestCase.logger;
 
-	// Check, if one of checks is fail, then fail test
-	//commit to master
-	//commit to testing branch
+	
 	public static void checkAndFail(String TestName) {
 		if (CommonUtils.getParam("testResult", false).equals("fail")) {
 			throw new AssertionError(TestName + " test is FAIL. Please see log for details");
